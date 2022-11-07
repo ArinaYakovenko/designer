@@ -1,0 +1,162 @@
+@import "./normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #070707;
+    letter-spacing: 1px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 10px;
+}
+.title{
+    font-size: 34px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+/* header */
+.nav{
+    padding: 32px 0;
+    border-bottom: 1px solid black;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-button{
+    display: none;
+}
+.nav-li {
+    list-style-type: none;
+}
+.header-a {
+    font-weight: 700;
+    color: #828282;
+}
+.header-a.active{
+    color: #070707;
+}
+/* header-page */
+.header-page {
+    padding: 40px 0 104px 0;
+}
+.header-page-title {
+    display: flex;
+    justify-content: space-between;
+}
+.header-title {
+    font-size: 47px;
+}
+.header-page-info {
+    font-weight: 500;
+    margin-top: 45px;
+}
+.header-page-img{
+    margin-top: 31px;
+}
+
+/* about-me */
+.about-me {
+    padding: 120px 0 77px 0;
+    text-align: center;
+
+    background-color: #F6F6F6;
+}
+.about-me-title {
+    margin-bottom: 18px;
+}
+.about-me-info {
+    letter-spacing: 1.5px;
+}
+.info {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+/* skills */
+.skills-page{
+    text-align: center;
+    padding: 91px 0 110px 0;
+}
+.skills-title {
+    padding-bottom: 69px;
+}
+.skills-info {
+    padding-bottom: 83px;
+}
+.skills-img {
+    display: flex;
+    justify-content: space-between;
+}
+.img-prog {
+    padding-bottom: 23px;
+}
+.info_prog {
+    color: #828282;
+    font-size: 14px;
+    height: 80px;
+
+    padding-bottom: 41px;
+}
+.stars {
+    display: flex;
+    column-gap: 9px;
+}
+
+/* portfolio */
+
+.portfolio-page {
+    background-color: #F6F6F6;
+    padding: 113px 0 96px 0;
+
+    text-align: center;
+}
+.portolio-title{
+    margin-bottom: 47px;
+}
+.portfolio + .portfolio{
+    margin-top: 99px;
+}
+.img-portfolio {
+    padding-bottom: 45px;
+}
+.portfolio-info {
+    text-decoration: underline;
+}
+
+/* footer */
+
+.contacts-page {
+    text-align: center;
+    padding: 114px 0 123px 0;
+}
+.contacts-title {
+    margin-bottom: 20px;
+}
+.contacts-info {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.contacts-button {
+    color: #fff;
+    padding: 9px 30px;
+    background-color: #000;
+    border-radius: 30px;
+
+    margin-bottom: 86px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 61px;
+}
+.footer-info {
+    margin-top: 46px;
+
+    font-size: 14px;
+    color: #828282;
+}
